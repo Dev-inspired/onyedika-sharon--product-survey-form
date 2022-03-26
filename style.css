@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-size: 24px;
+}
+.banner {
+    /* The image used */
+    background-image:url(images/banner.jpeg);
+    height: 200px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+  }
+  input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: #D5DFE9;
+  }
+  input[type=email] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: #D5DFE9;
+  }
+  input[type=number] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: #D5DFE9;
+  }
+  input[type=radio] {
+   /* create custom radio button appearance */
+   display: inline-block;
+   width: 15px;
+   height: 15px;  
+   padding: 3px;
+   background-clip: content-box;
+   border: 2px solid #3b2406;
+   border-radius: 50%;
+   margin-right: 0;
+  }
+  #dropdown {
+    font-weight:normal;
+    display: block;
+    min-height: 20px;
+    padding: 16px;
+    width: 50%;
+    background-color: #D5DFE9;
+}
+input[type=checkbox] {
+    display: inline-block;
+   width: 15px;
+   height: 15px;  
+   padding: 3px;
+   background-clip: content-box;
+   border: 2px solid #3b2406;
+   border-radius: 50%;
+   margin-right: 0;
+}
+
+
+input[type=submit]{
+    background-color: #692277; /* purple*/
+    border: none;
+    color: white;
+    padding: 15px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top:12px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+   
+}
+textarea {
+  width: 50%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #D5DFE9;
+  resize: none;
+}
