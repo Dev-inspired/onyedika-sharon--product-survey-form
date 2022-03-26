@@ -1,9 +1,46 @@
-<index>
+<html>
     <head>
         <title>Producr Survey Form</title>
     </head>
     <body>
-        <h1 id="title">Product Survey Form</h1>
+        <h1 id="title">Gashin Perfume Product survey form</h1>
         <p id="description">Kindly give us your genuine feedbcak about our products</p>
+        <form id="survey-form">
+         <label id="name-label">Name</label><br>
+           <input type="text" id="name"><br>
+            <label id="email-label">Email</label><br>
+             <input type="email" id="email"><br>
+            <label id="number-label">Phone Number:</label><br>
+              <input type="number" id="number" min="0" max="7"><br>
+            <label>Rate our Product</label><br>
+              <select id="dropdown" name="rate"><br>
+                <option value="Perfect">Perfect</option>
+                <option value="Good">Good</option>
+                <option value="Fair">Fair</option>
+                <option value="Improvement">Need Improvement</option>
+                <option value="no">Not For Me</option>
+              </select><br>
+            <label>Which is your favourite perfume from our line:</label><br>
+                <input type="radio" id="coco" name="perf" value="coco">
+                <label for="coco">Coco</label><br>
+                <input type="radio" id="shin" name="perf" value="shin">
+                <label for="shin">Shin</label><br>
+                <input type="radio" id="lewa" name="perf" value="lewa">
+                <label for="lewa">Lewa</label><br>
+                <input type="radio" id="odes" name="perf" value="odes">
+                <label for="odes">Odes</label><br>
+                <input type="radio" id="femme" name="perf" value="femme">
+                <label for="femme">Femme</label><br>
+                <label>Which Perfume category if affordable?</label><br>
+              <input type="checkbox" id="cat1" name="cat1" value="Feminine">
+                <label for="cat1"> Feminine</label><br>
+                <input type="checkbox" id="cat2" name="cat2" value="Cologne">
+                <label for="cat2"> Cologne</label><br>
+                <input type="checkbox" id="cat3" name="cat3" value="Parfum">
+                <label for="cat3"> Perfume la Parfum</label><br>
+                <label for="remarks">Additional comments about our products:</label><br>
+                <textarea id="remarks" name="remarks" rows="4" cols="50"></textarea><br>
+                <input type="submit" value="Submit">
+        </form>
     </body>
-</index>
+</html>
