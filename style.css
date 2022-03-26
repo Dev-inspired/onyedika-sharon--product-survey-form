@@ -5,12 +5,12 @@ h1{
     font-size: 24px;
 }
 .banner {
-    /* The image used */
+    
     background-image:url(images/banner.jpeg);
     height: 200px; 
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
   }
   input[type=text] {
     width: 50%;
@@ -34,7 +34,7 @@ h1{
     background-color: #D5DFE9;
   }
   input[type=radio] {
-   /* create custom radio button appearance */
+   
    display: inline-block;
    width: 15px;
    height: 15px;  
@@ -65,7 +65,7 @@ input[type=checkbox] {
 
 
 input[type=submit]{
-    background-color: #692277; /* purple*/
+    background-color: #692277; 
     border: none;
     color: white;
     padding: 15px 40px;
